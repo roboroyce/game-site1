@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Game Hub - Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <script defer src="index.js"></script>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-900 text-white">
+    <header class="p-4 bg-gray-800">
+        <div class="container mx-auto flex justify-center items-center">
+            <h1 class="text-3xl font-bold">Awesome Game Hub</h1>
+        </div>
+        <nav class="container mx-auto mt-4 flex justify-center">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="games.html" class="nav-button">Games</a>
+            <a href="privacy.html" class="nav-button">Privacy Policy</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto my-8 flex-grow px-4">
+        <section id="games">
+            <h2 class="text-2xl font-bold mb-4">Our Games</h2>
+            <div class="game-grid">
+                <!-- Game cards with links -->
+                                <a href="tic-tac-toe.html" class="game-card">
+                    <img src="/api/placeholder/150/150" alt="Tic Tac Toe">
+                    <h3>Tic Tac Toe</h3>
+                </a>
+                <a href="snake.html" class="game-card">
+                    <img src="/api/placeholder/150/150" alt="Snake">
+                    <h3>Snake</h3>
+                </a>
+                <a href="fluid/" class="game-card">
+                    <img src="fluid.png" alt="Fluid">
+                    <h3>Fluid</h3>
+                </a>
+                <a href="box-stack" class="game-card">
+                    <img src="/api/placeholder/150/150" alt="Box Stack">
+                    <h3>Box Stack</h3>
+                </a>
+                <a href="2048.html" class="game-card">
+                    <img src="/api/placeholder/150/150" alt="2048">
+                    <h3>2048</h3>
+                </a>
+                <a href="tetris.html" class="game-card">
+                    <img src="/api/placeholder/150/150" alt="Tetris">
+                    <h3>Tetris</h3>
+                </a>
+                <a href="flash/" class="game-card">
+                    <img src="learn2fly.jpg" alt="Learn2Fly">
+                    <h3>Learn2Fly</h3>
+                </a>
+                <a href="craft.html" class="game-card">
+                    <img src="craft.png" alt="Minecraft">
+                    <h3>Minecraft</h3>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 text-center text-sm text-gray-500">
+        <p>&copy; 2024 Awesome Game Hub. All rights reserved.</p>
+        <a href="privacy.html" class="text-gray-500 hover:text-gray-300">Privacy Policy</a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

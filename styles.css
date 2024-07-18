@@ -1,0 +1,86 @@
+/* Global Reset and Setup */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 0 10px; /* Adjust margin for spacing between buttons */
+}
+
+.nav-button:hover {
+    background-color: #2980b9;
+}
+
+/* Main Section */
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game Grid */
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust grid columns and card size */
+    gap: 20px; /* Adjust gap between cards */
+    justify-items: center; /* Center items horizontally */
+}
+
+/* Game Cards */
+.game-card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height */
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #ccc;
+}
