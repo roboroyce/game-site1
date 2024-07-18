@@ -1,0 +1,53 @@
+<!-- Developed by Niloy Sikdar -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111A2B">
+    <meta name="msapplication-navbutton-color" content="#111121">
+    <link rel="icon" href="./files/icon.png">
+    <link rel="stylesheet" href="./files/style.css">
+    <title>Box Stacking Game</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <div class="scene"></div>
+    <h2>0</h2>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+        <h1 class="loading-text">Loading ...</h1>
+    </div>
+
+    <div class="score-page">
+        <div class="score-card">
+            <p class="score-text">Final Score</p>
+            <h1 class="score-value">0</h1>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <div id="particles-js1"></div>
+        <div class="game-name">
+            <h1 class="original-name">Box Stacking Game</h1>
+            <p class="tag">Don't lose your box</p>
+        </div>
+        <p class="description">Click/Tap on the screen to capture boxes</p>
+        <button class="try-now">Play Now</button>
+        <p class="developed">Developed by Niloy Sikdar</p>
+    </div>
+
+    <audio src="./files/sound.mp3" autoplay="false" loop></audio>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"></script>
+    <script src="./files/particle.js"></script>
+    <script src="./files/app.js"></script>
+</body>
+
+</html>
